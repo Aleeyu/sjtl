@@ -79,3 +79,50 @@ text-align: center;
 .wh{
    background: url(../images/bg.png) 8px -1876px no-repeat;
 }
+.sh{
+  color: #666666;
+  font-size: 16px;
+  
+}
+.sh>p{
+  line-height: 36px;
+  text-indent: 32px;
+}
+.sh>h3{
+  color: black;
+}
+.sh>h3>span{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e44629;
+  margin-right: 10px;
+}
+.par{
+  width:1200px;
+
+}
+.par>div{
+  float: left;
+  width: 566px;
+}
+.par h3{
+  color: black;
+  margin-bottom: 20px;
+}
+.par-item{
+  padding:20px 10px 20px 24px;
+  float: left;
+}
+.par-item p{
+  line-height: 24px;
+}
+div.intro{
+  width: 376px;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}
