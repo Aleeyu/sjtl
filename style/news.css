@@ -83,7 +83,7 @@ text-align: center;
   color: #666666;
   font-size: 1.4rem;
 }
-.list-time:hover{
+.list-time{
   background: #e44629;
   color: white;
   cursor: pointer;

@@ -63,7 +63,7 @@ function movePic(){
 				 //获取元素当前left位置
 				 var leftx=parseInt($(element).css("left"))-wid
 				 //alert(leftx);
-				 $(element).animate({"left":leftx},600);
+				 $(element).animate({"left":leftx},2000);
 			});
 			index++;
 			//设置移动到最后一张 的时候 让轮播的第一个小按钮 设置为蓝色
