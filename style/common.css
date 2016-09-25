@@ -50,6 +50,9 @@ time, mark, audio, video {
   left: 100px;
   top:0;
 }
+.side-qq a{
+  color: white;
+}
 .error {
       color: white;
       font-size: 1.33333rem;
