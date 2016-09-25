@@ -10,7 +10,7 @@ function GETCASE(leii){
       <div><img src=${img} alt=""><span><a href="html/casemore.html#${datali[i].id}"><img src="images/search.png" alt=""></a></span></div>
       <h3>${datali[i].title}</h3>
       <em></em>
-      <p>${datali[i].msg.slice(0, 30)}<br>${datali[i].msg.slice(30,50)}......</p>
+      <p>${datali[i].msg.slice(0, 30)}<br>${datali[i].msg.slice(30,50)}</p>
     </div>`
     $(".case-box").append(cas);
      }
@@ -22,7 +22,7 @@ function GETCASE(leii){
  		var inew=`<div class="newit cl">
       <div class="new-list">
         <span>${datalist[i].timee}</span>
-        <p>${datalist[i].msg.slice(0,40)}......</p>
+        <p>${datalist[i].msg.slice(0,40)}</p>
         <em></em>
       </div>
     </div>`
